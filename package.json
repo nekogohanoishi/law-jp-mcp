@@ -28,7 +28,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.27.1",
+    "@modelcontextprotocol/sdk": "1.25.2",
     "mcp-handler": "^1.0.7",
     "zod": "^3.25.0"
   },
