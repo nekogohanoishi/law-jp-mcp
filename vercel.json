@@ -1,11 +1,6 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/$1" }
-  ],
   "functions": {
-    "api/[transport]/route.ts": {
+    "app/api/[transport]/route.ts": {
       "maxDuration": 60
     }
   }

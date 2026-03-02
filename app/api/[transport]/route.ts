@@ -1,12 +1,12 @@
 import { createMcpHandler } from "mcp-handler";
-import { searchLawsSchema, handleSearchLaws } from "../../src/tools/searchLaws.js";
-import { getLawContentSchema, handleGetLawContent } from "../../src/tools/getLawContent.js";
-import { getArticleSchema, handleGetArticle } from "../../src/tools/getArticle.js";
-import { searchByKeywordSchema, handleSearchByKeyword } from "../../src/tools/searchByKeyword.js";
-import { getLawRevisionsSchema, handleGetLawRevisions } from "../../src/tools/getLawRevisions.js";
-import { getTocSchema, handleGetToc } from "../../src/tools/getToc.js";
-import { getSectionSchema, handleGetSection } from "../../src/tools/getSection.js";
-import { getArticleAtRevisionSchema, handleGetArticleAtRevision } from "../../src/tools/getArticleAtRevision.js";
+import { searchLawsSchema, handleSearchLaws } from "../../../src/tools/searchLaws.js";
+import { getLawContentSchema, handleGetLawContent } from "../../../src/tools/getLawContent.js";
+import { getArticleSchema, handleGetArticle } from "../../../src/tools/getArticle.js";
+import { searchByKeywordSchema, handleSearchByKeyword } from "../../../src/tools/searchByKeyword.js";
+import { getLawRevisionsSchema, handleGetLawRevisions } from "../../../src/tools/getLawRevisions.js";
+import { getTocSchema, handleGetToc } from "../../../src/tools/getToc.js";
+import { getSectionSchema, handleGetSection } from "../../../src/tools/getSection.js";
+import { getArticleAtRevisionSchema, handleGetArticleAtRevision } from "../../../src/tools/getArticleAtRevision.js";
 
 const handler = createMcpHandler(
   (server) => {
